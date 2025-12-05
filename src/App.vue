@@ -5,7 +5,7 @@
   <Rag />
   <Agent />
   <Comparatif />
-  <CTA />
+  <Demo />
   <Footer />
 </template>
 <script setup>
@@ -15,6 +15,6 @@ import Feature from './components/Feature.vue';
 import Rag from './components/Rag.vue';
 import Agent from './components/Agent.vue';
 import Comparatif from './components/Comparatif.vue';
-import CTA from './components/CTA.vue';
+import Demo from './components/Demo.vue';
 import Footer from './components/Footer.vue';
 </script>
