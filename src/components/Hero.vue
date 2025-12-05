@@ -1,5 +1,5 @@
 <template>
-  <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#050B19] pt-24">
+  <section id="accueil" class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#050B19] pt-24">
 
     <!-- Animated Grid Background -->
     <div class="absolute inset-0 opacity-[0.15] grid-bg pointer-events-none"></div>
@@ -23,7 +23,7 @@
         exécuter des actions et automatiser vos processus.
       </p>
 
-      <button class="px-10 py-4 cursor-pointer text-lg rounded-xl bg-linear-to-r from-[#2EC4B6] to-[#6A3CFF] text-white font-semibold shadow-lg hover:shadow-2xl hover:scale-[1.04]  transition">
+      <button class="px-10 py-4 cursor-pointer text-lg rounded-xl bg-linear-to-r from-[#2EC4B6] to-[#6A3CFF] text-white font-semibold shadow-lg hover:shadow-2xl hover:scale-[1.04]  ">
         Demander une démo
       </button>
     </div>

@@ -8,18 +8,18 @@
 
       <!-- Desktop nav -->
       <nav class="hidden lg:flex items-center gap-8 text-sm text-slate-200">
-        <a href="#creations" class="hover:text-white/90 transition">Creations</a>
+        <a href="#accueil" class="hover:text-white/90 transition">Accueil</a>
         <a href="#rag" class="hover:text-white/90 transition">RAG</a>
         <a href="#agent" class="hover:text-white/90 transition">Agent IA</a>
         <a href="#comparatif" class="hover:text-white/90 transition">Comparatif</a>
-        <a href="#about" class="hover:text-white/90 transition">About</a>
+        
         <a href="#contact" class="hover:text-white/90 transition">Contact</a>
       </nav>
 
       <!-- Actions / Mobile button -->
       <div class="flex items-center gap-3">
-        <button class="hidden lg:inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-linear-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-medium hover:brightness-105 active:scale-95 transition">
-          Get started
+        <button class="hidden cursor-pointer lg:inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-linear-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-medium hover:brightness-105 active:scale-95 ">
+          Commander
         </button>
 
         <button @click="open = !open" aria-label="Open menu" class="lg:hidden p-2 rounded-md text-white/90 hover:bg-white/5 transition">
@@ -33,20 +33,20 @@
       </div>
     </div>
 
-    <!-- Mobile menu overlay -->
+   <!-- Mobile menu overlay -->
     <transition name="menu-fade">
-      <div v-if="open" class="lg:hidden fixed inset-0 z-40 bg-black/60 backdrop-blur-sm flex items-center justify-center">
-        <div class="bg-[#071026]/95 rounded-2xl w-11/12 max-w-md p-6 border border-white/5 shadow-2xl">
+      <div v-if="open" class="lg:hidden fixed inset-0 top-16 z-40 bg-black/80 backdrop-blur-sm flex items-center justify-center min-h-screen">
+        <div class="bg-[#071026]/98 rounded-2xl w-11/12 max-w-md p-8 border border-white/10 shadow-2xl">
           <div class="flex flex-col gap-6 text-lg text-slate-100">
-            <a @click="close" href="#creations" class="block hover:text-white/90 transition">Creations</a>
-            <a @click="close" href="#rag" class="block hover:text-white/90 transition">RAG</a>
-            <a @click="close" href="#agent" class="block hover:text-white/90 transition">Agent IA</a>
-            <a @click="close" href="#comparatif" class="block hover:text-white/90 transition">Comparatif</a>
-            <a @click="close" href="#about" class="block hover:text-white/90 transition">About</a>
-            <a @click="close" href="#contact" class="block hover:text-white/90 transition">Contact</a>
+            <a @click="close" href="#accueil" class="block hover:text-[#2EC4B6] transition font-medium">Accueil</a>
+            <a @click="close" href="#rag" class="block hover:text-[#2EC4B6] transition font-medium">RAG</a>
+            <a @click="close" href="#agent" class="block hover:text-[#2EC4B6] transition font-medium">Agent IA</a>
+            <a @click="close" href="#comparatif" class="block hover:text-[#2EC4B6] transition font-medium">Comparatif</a>
+            
+            <a @click="close" href="#contact" class="block hover:text-[#2EC4B6] transition font-medium">Contact</a>
           </div>
-          <div class="mt-6 flex justify-center">
-            <button @click="close" class="px-6 py-2 rounded-full bg-linear-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-medium">Book demo</button>
+          <div class="mt-8 flex justify-center">
+            <button @click="close" class="px-8 py-3 rounded-lg bg-linear-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-semibold hover:brightness-110 ">Book demo</button>
           </div>
         </div>
       </div>

@@ -1,5 +1,5 @@
 <template>
-  <section id="cta" class="relative py-40 overflow-hidden bg-[#050B19] text-center">
+  <section id="contact" class="relative py-40 overflow-hidden bg-[#050B19] text-center">
 
     <!-- Futuristic Grid Background -->
     <div class="absolute inset-0 grid-bg opacity-[0.08]"></div>
@@ -74,7 +74,7 @@ onMounted(() => {
   border-radius: 1rem;
   background: linear-gradient(90deg, #2EC4B6, #6A3CFF);
   box-shadow: 0 0 20px rgba(46,196,182,0.4), 0 0 35px rgba(106,60,255,0.3);
-  transition: all 0.35s ease;
+  
   cursor: pointer;
 }
 .cta-btn:hover {
