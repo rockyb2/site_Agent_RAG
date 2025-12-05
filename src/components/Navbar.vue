@@ -1,18 +1,9 @@
 <template>
-  <header class="fixed inset-x-0 top-0 z-50 backdrop-blur-md bg-gradient-to-r from-[#071026]/50 to-[#071026]/30 border-b border-white/5">
+  <header class="fixed inset-x-0 top-0 z-50 backdrop-blur-md bg-linear-to-r from-[#071026]/50 to-[#071026]/30 border-b border-white/5">
     <div class="max-w-7xl mx-auto px-6 md:px-12 lg:px-20 flex items-center justify-between h-16">
       <!-- Logo -->
       <a href="#" class="flex items-center gap-3">
-        <svg width="36" height="36" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" class="drop-shadow-lg">
-          <rect width="48" height="48" rx="10" fill="url(#g)" />
-          <defs>
-            <linearGradient id="g" x1="0" x2="1">
-              <stop offset="0" stop-color="#2EC4B6"/>
-              <stop offset="1" stop-color="#6A3CFF"/>
-            </linearGradient>
-          </defs>
-        </svg>
-        <span class="font-semibold text-lg text-white tracking-wide">IA Business</span>
+        <span class="font-semibold text-lg text-white tracking-wide">Candide_AI</span>
       </a>
 
       <!-- Desktop nav -->
@@ -27,7 +18,7 @@
 
       <!-- Actions / Mobile button -->
       <div class="flex items-center gap-3">
-        <button class="hidden lg:inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-gradient-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-medium hover:brightness-105 active:scale-95 transition">
+        <button class="hidden lg:inline-flex items-center gap-2 px-5 py-2 rounded-lg bg-linear-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-medium hover:brightness-105 active:scale-95 transition">
           Get started
         </button>
 
@@ -55,7 +46,7 @@
             <a @click="close" href="#contact" class="block hover:text-white/90 transition">Contact</a>
           </div>
           <div class="mt-6 flex justify-center">
-            <button @click="close" class="px-6 py-2 rounded-full bg-gradient-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-medium">Book demo</button>
+            <button @click="close" class="px-6 py-2 rounded-full bg-linear-to-r from-[#6A3CFF] to-[#2EC4B6] text-white font-medium">Book demo</button>
           </div>
         </div>
       </div>

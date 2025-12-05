@@ -73,7 +73,7 @@ onMounted(() => {
   background-size: 50px 50px;
   animation: moveGrid 15s linear infinite;
 }
-@Override
+
 @keyframes moveGrid {
   0% { background-position: 0 0, 0 0; }
   100% { background-position: 100px 100px, 100px 100px; }

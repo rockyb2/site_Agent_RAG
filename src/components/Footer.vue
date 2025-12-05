@@ -14,7 +14,7 @@
 
         <!-- Brand -->
         <div>
-          <h2 class="text-3xl font-extrabold neon-strong mb-4">IA Business</h2>
+          <h2 class="text-3xl font-extrabold neon-strong mb-4">Candide_AI</h2>
           <p class="text-slate-300 text-sm leading-relaxed">
             La solution d'agent IA alimenté par RAG pour transformer vos processus,
             automatiser vos tâches et booster votre croissance.
@@ -36,9 +36,9 @@
         <div>
           <h3 class="text-lg font-semibold mb-4 text-[#2EC4B6]">Contact</h3>
           <ul class="space-y-2 text-slate-300 text-sm">
-            <li>Email : support@iabusiness.com</li>
-            <li>Téléphone : +33 6 12 34 56 78</li>
-            <li>Adresse : Paris, France</li>
+            <li>Email : rockyb225.dev@gmail.com</li>
+            <li>Téléphone : +225 05 64 21 85 67</li>
+            <li>Adresse : Riviera Palmeraie, Côte D'ivoire</li>
           </ul>
         </div>
 
@@ -46,9 +46,9 @@
         <div>
           <h3 class="text-lg font-semibold mb-4 text-[#2EC4B6]">Réseaux</h3>
           <div class="flex space-x-4 text-2xl">
-            <a href="#" class="hover:text-[#2EC4B6] transition">🌐</a>
-            <a href="#" class="hover:text-[#2EC4B6] transition">🐦</a>
-            <a href="#" class="hover:text-[#2EC4B6] transition">💼</a>
+            <a target="_blank" href="https://www.linkedin.com/in/jonathan-zadi-277824266" class="hover:text-[#2EC4B6] text-white transition"><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href="https://www.facebook.com/profile.php?id=61582837157806" class="hover:text-[#2EC4B6] transition"><i class="fa-brands fa-square-facebook"></i></a>
+            
           </div>
         </div>
 
@@ -56,7 +56,7 @@
 
       <!-- Bottom -->
       <div class="text-center text-slate-400 text-sm pt-8">
-        © {{ new Date().getFullYear() }} IA Business — Tous droits réservés.
+        © {{ new Date().getFullYear() }} Candide_AI — Tous droits réservés.
       </div>
 
     </div>
