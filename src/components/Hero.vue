@@ -24,7 +24,7 @@
       </p>
 
       <button class="px-10 py-4 cursor-pointer text-lg rounded-xl bg-linear-to-r from-[#2EC4B6] to-[#6A3CFF] text-white font-semibold shadow-lg hover:shadow-2xl hover:scale-[1.04]  ">
-        Demander une démo
+        <a target="_blank" href="https://www.linkedin.com/in/jonathan-zadi-277824266" >Réserver une démo</a> 
       </button>
     </div>
 

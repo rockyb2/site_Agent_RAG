@@ -17,18 +17,13 @@
             </h2>
 
             <p class="max-w-3xl mx-auto text-slate-300 text-lg md:text-xl mb-16 animate-fade">
-                Découvrez la puissance de nos agents IA spécialisés : un <span
-                    class="text-[#2EC4B6] font-semibold">expert financier</span>
-                capable d'analyser vos situations économiques en temps réel,
-                et un <span class="text-[#6A3CFF] font-semibold">agent RAG</span> conçu pour la gestion automatisée
-                d'une commune fictive :
-                <span class="text-[#FF9F1C] font-bold">Trifouillis‑sur‑Loire</span>.
+                Testez notre agent de type chatbot, doté d’outils lui permettant de générer des fichiers Word, Excel et PDF, puis de les envoyer par e-mail.
             </p>
 
             <!-- Cards -->
             <div class="grid md:grid-cols-2 gap-12 max-w-6xl mx-auto">
 
-                <!-- Agent Financier IA -->
+                <!-- Agent Financier IA
                 <div
                     class="p-10 rounded-2xl bg-white/10 backdrop-blur-xl border border-[#2EC4B6]/20 shadow-xl hover:shadow-[#2EC4B6]/40 transition transform hover:-translate-y-2">
                     <h3 class="text-3xl font-semibold text-[#2EC4B6] mb-4">Agent Financier IA</h3>
@@ -41,7 +36,7 @@
                 </div>
 
                 <!-- Agent Communal RAG -->
-                <div
+                <!-- <div
                     class="p-10 rounded-2xl bg-white/10 backdrop-blur-xl border border-[#2EC4B6]/20 shadow-xl hover:shadow-[#2EC4B6]/40 transition transform hover:-translate-y-2">
                     <h3 class="text-3xl font-semibold text-[#2EC4B6] mb-4">Agent Communal RAG</h3>
                     <p class="text-gray-300 leading-relaxed mb-6">
@@ -51,12 +46,12 @@
                     </p>
                     <iframe src="https://b83bb0f415730ddfc9.gradio.live"
                         class="w-full h-[500px] rounded-xl border border-[#2EC4B6]/30"></iframe>
-                </div>
+                </div> -->
 
             </div>
 
             <!-- RAG Commune Agent Card -->
-            <div class="card mt-10">
+            <!-- <div class="card mt-10">
                 <h3 class="text-3xl font-bold mb-4 text-[#FF9F1C]">Agent IA avec RAG – Trifouillis‑sur‑Loire</h3>
                 <p class="text-slate-300 mb-6 text-sm leading-relaxed">
                     Cet agent utilise vos documents internes pour fournir des réponses fiables.
@@ -65,15 +60,25 @@
                 <a href="https://b83bb0f415730ddfc9.gradio.live" target="_blank" class="demo-btn">
                     Tester l’Agent RAG
                 </a>
-            </div>
+            </div> -->
 
-            <div class="card mt-10">
+            <!-- <div class="card mt-10">
                 <h3 class="text-3xl font-bold mb-4 text-[#FF9F1C]">Agent IA expert en finance</h3>
                 <p class="text-slate-300 mb-6 text-sm leading-relaxed">
                     Cet Agent utilise des outils spécialement coder pour la finance vous pouvez lui poser des questions sur la valeur d'une action par exemple
                 </p>
                 <a href="https://5e3a364796be067d68.gradio.live" target="_blank" class="demo-btn">
                     Tester l’Agent Financier
+                </a>
+            </div> -->
+
+            <div class="card mt-10">
+                <h3 class="text-3xl font-bold mb-4 text-[#FF9F1C]">Candide Agent support</h3>
+                <p class="text-slate-300 mb-6 text-sm leading-relaxed">
+                    Un agent IA de support client capable de générer et d’envoyer des documents (Word, Excel, PDF) par e-mail.
+                </p>
+                <a href="https://chatbot-ui-6fre.onrender.com/" target="_blank" class="demo-btn">
+                    Tester l’Agent Support
                 </a>
             </div>
         </div>

@@ -28,7 +28,7 @@
             <li><a href="#rag" class="hover:text-[#2EC4B6] transition">RAG</a></li>
             <li><a href="#agent" class="hover:text-[#2EC4B6] transition">Agent IA</a></li>
             <li><a href="#comparatif" class="hover:text-[#2EC4B6] transition">Comparatif</a></li>
-            <li><a href="#cta" class="hover:text-[#2EC4B6] transition">Demande de Démo</a></li>
+            
           </ul>
         </div>
 
@@ -36,7 +36,7 @@
         <div>
           <h3 class="text-lg font-semibold mb-4 text-[#2EC4B6]">Contact</h3>
           <ul class="space-y-2 text-slate-300 text-sm">
-            <li>Email : rockyb225.dev@gmail.com</li>
+            <li>Email : davjonathan6@gmail.com</li>
             <li>Téléphone : +225 05 64 21 85 67</li>
             <li>Adresse : Riviera Palmeraie, Côte D'ivoire</li>
           </ul>
@@ -56,7 +56,7 @@
 
       <!-- Bottom -->
       <div class="text-center text-slate-400 text-sm pt-8">
-        © {{ new Date().getFullYear() }} Candide_AI — Tous droits réservés.
+        © {{ new Date().getFullYear() }} Candide_AI By Jonathan Zadi — Tous droits réservés.
       </div>
 
     </div>

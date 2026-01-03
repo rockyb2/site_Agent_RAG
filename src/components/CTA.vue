@@ -19,7 +19,7 @@
       </p>
 
       <button class="cta-btn">
-        Réserver une démo
+       <a target="_blank" href="https://www.linkedin.com/in/jonathan-zadi-277824266" >Réserver une démo</a> 
       </button>
 
     </div>
